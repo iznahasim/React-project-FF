@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to top, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.5) 50%), 
+                url('https://www.google.com/imgres?q=pet%20shop&imgurl=https%3A%2F%2Fshared.akamai.steamstatic.com%2Fstore_item_assets%2Fsteam%2Fapps%2F2401680%2Fcapsule_616x353.jpg%3Ft%3D1718994924&imgrefurl=https%3A%2F%2Fstore.steampowered.com%2Fapp%2F2401680%2FPet_Shop_Simulator%2F&docid=FgO2sP_NVM4KsM&tbnid=Snnir8xK0kq31M&vet=12ahUKEwikxL7YgriHAxWQZ_EDHVgxDNgQM3oECGgQAA..i&w=616&h=353&hcb=2&ved=2ahUKEwikxL7YgriHAxWQZ_EDHVgxDNgQM3oECGgQAA') 
+                no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    width: 300px;
+    background: rgba(0,0,0,0.8); /* Use rgba for a black shaded box */
+    border-radius: 10px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5); /* Add shadow for better visibility */
+}
+
+.form h2 {
+    color: #ff7200;
+    font-size: 22px;
+    margin: 0 0 20px;
+    padding: 8px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.2); /* Subtle background for the title */
+}
+
+.form input {
+    width: 100%;
+    height: 35px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #ff7200;
+    color: #fff;
+    font-size: 15px;
+    margin-top: 20px;
+    padding: 0 5px;
+}
+
+.form input:focus {
+    outline: none;
+}
+
+.form::placeholder {
+    color: #fff;
+    font-weight: bold;
+}
+
+.btn {
+    width: 100%;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.4s ease, color 0.4s ease;
+}
+
+.btn:hover {
+    background: #fff;
+    color: #ff7200;
+}
+
+.link {
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+.link a {
+    text-decoration: none;
+    color: #ff7200;
+}

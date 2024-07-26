@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to top, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.5) 50%),
+              url('https://www.google.com/imgres?q=pet%20shop&imgurl=https%3A%2F%2Fshared.akamai.steamstatic.com%2Fstore_item_assets%2Fsteam%2Fapps%2F2401680%2Fcapsule_616x353.jpg%3Ft%3D1718994924&imgrefurl=https%3A%2F%2Fstore.steampowered.com%2Fapp%2F2401680%2FPet_Shop_Simulator%2F&docid=FgO2sP_NVM4KsM&tbnid=Snnir8xK0kq31M&vet=12ahUKEwikxL7YgriHAxWQZ_EDHVgxDNgQM3oECGgQAA..i&w=616&h=353&hcb=2&ved=2ahUKEwikxL7YgriHAxWQZ_EDHVgxDNgQM3oECGgQAA') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.main {
+  width: 400px;
+  height: 555px;
+  background: linear-gradient(to top, rgba(0,0,0,0.8) 50%, rgba(0,0,0,0.8) 50%);
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main h2 {
+  font-family: sans-serif;
+  text-align: center;
+  color: #ff7200;
+  font-size: 22px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 0 auto 20px;
+  padding: 8px;
+}
+
+.main input,
+.main select {
+  width: 100%;
+  height: 35px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #ff7200;
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.main input:focus,
+.main select:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: #fff;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+/* Styles for Register Button */
+.btn-register {
+  width: 100%;
+  height: 40px;
+  background-color: #ff7200;
+  border: none;
+  margin-top: 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-register:hover {
+  background-color: #fff;
+  color: #ff7200;
+}
+
+/* New CSS for Paragraph and Link */
+.text-center {
+  text-align: center;
+}
+
+.text-muted {
+  color: #b0b0b0;
+}
+
+.mt-5 {
+  margin-top: 20px; /* Adjust as needed */
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.fw-bold {
+  font-weight: bold;
+}
+
+.text-body {
+  color: #ff7200;
+}
+
+a {
+  color: #ff7200;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

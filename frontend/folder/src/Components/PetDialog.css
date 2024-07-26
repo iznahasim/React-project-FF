@@ -1,0 +1,44 @@
+/* PetDialog.css */
+
+.dialog {
+    position: absolute; /* Position the dialog absolutely */
+    top: 50%;           /* Center it vertically within the parent */
+    left: 50%;          /* Center it horizontally within the parent */
+    transform: translate(-50%, -50%); /* Translate to ensure proper centering */
+    background-color: black;
+    color: orange;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    z-index: 1000; /* Ensure it appears on top */
+  }
+  
+  .dialogTitle {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .textField, .select {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    color: orange;
+    background-color: black;
+    border: 1px solid orange;
+    border-radius: 4px;
+  }
+  
+  .button {
+    background-color: black;
+    color: orange;
+    padding: 10px 20px;
+    border: 1px solid orange;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: darkorange;
+  }
+  
